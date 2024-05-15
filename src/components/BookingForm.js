@@ -17,7 +17,7 @@ const BookingForm =  (props) => {
     return (
         <header>
             <section>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} >
                     <fieldset>
                         <div>
                             <label htmlFor='book-date'>Choose Date</label>
